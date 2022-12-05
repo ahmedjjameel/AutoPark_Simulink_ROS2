@@ -64,7 +64,8 @@ In the left parking selection area, you can also select a spot. The default park
 sim('ROS2ValetSimulationExample.slx');
 
 
-![fig7](https://user-images.githubusercontent.com/81799459/205689247-b2ed86ca-b618-4e49-96b6-1999d501f96e.jpg)
+![fig7](https://user-images.githubusercontent.com/81799459/205690313-9e46b8da-88fb-41a7-91e9-4c2cb11f5e02.gif)
+
 
 
 ### Simulation Results
