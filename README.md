@@ -157,5 +157,8 @@ open_system("ROS2ValetVehicleExample");
 set_param("ROS2ValetVehicleExample","SimulationCommand","start"); 
 Verify that the results from simulation match with the deployed ROS 2 nodes.
 
+#### References
+
+[1] https://de.mathworks.com/help/ros/ug/automated-valet-using-ros2-simulink.html
 
 
