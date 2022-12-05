@@ -78,3 +78,84 @@ open_system("ROS2ValetVehicleExample/Vehicle model/Visualization/Commands")
 ![fig8](https://user-images.githubusercontent.com/81799459/205689423-329e8c18-3504-4e63-9cbb-48d207fe2877.jpg)
 
 
+### Deploy ROS 2 Nodes
+
+Generate ROS 2 applications for Behavioral Planner, Path planner and Controller nodes. Simulate the Vehicle node in MATLAB and compare the results with simulation.
+Generate and deploy Behavioral Planner, Path Planner and Controller node applications using exampleHelperROS2ValetDeployNodes helper function. The helper function calls slbuild (Simulink) command with the name of the Simulink model as input argument, for each model, to generate C++ code and deploy the application on the host computer.
+exampleHelperROS2ValetDeployNodes(); % generate C++ code and deploy the application for ROS 2 nodes
+### Starting build procedure for: ROS2ValetBehavioralPlannerExample
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: C:\Users\joshchen\OneDrive - MathWorks\Documents\MATLAB\Examples\ros-ex88924338\ROS2ValetBehavioralPlannerExample_ert_rtw
+### Generated code for 'ROS2ValetBehavioralPlannerExample' is up to date because no structural, parameter or code replacement library changes were found.
+### Evaluating PostCodeGenCommand specified in the model
+### Using toolchain: Colcon Tools
+### Building 'ROS2ValetBehavioralPlannerExample': all
+Running colcon build in folder 'C:/Users/joshchen/OneDrive - MathWorks/Documents/MATLAB/Examples/ros-ex88924338'.Done.
+Success
+### Successfully generated all binary outputs.
+### Successful completion of build procedure for: ROS2ValetBehavioralPlannerExample
+### Creating HTML report file ROS2ValetBehavioralPlannerExample_codegen_rpt.html
+
+Build Summary
+
+Top model targets built:
+
+Model                              Action         Rebuild Reason                           
+===========================================================================================
+ROS2ValetBehavioralPlannerExample  Code compiled  Compilation artifacts were out of date.  
+
+1 of 1 models built (0 models already up to date)
+Build duration: 0h 1m 32.504s
+### Starting build procedure for: ROS2ValetPathPlannerExample
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: C:\Users\joshchen\OneDrive - MathWorks\Documents\MATLAB\Examples\ros-ex88924338\ROS2ValetPathPlannerExample_ert_rtw
+### Generated code for 'ROS2ValetPathPlannerExample' is up to date because no structural, parameter or code replacement library changes were found.
+### Evaluating PostCodeGenCommand specified in the model
+### Using toolchain: Colcon Tools
+### Building 'ROS2ValetPathPlannerExample': all
+Running colcon build in folder 'C:/Users/joshchen/OneDrive - MathWorks/Documents/MATLAB/Examples/ros-ex88924338'.Done.
+Success
+### Successfully generated all binary outputs.
+### Successful completion of build procedure for: ROS2ValetPathPlannerExample
+### Creating HTML report file ROS2ValetPathPlannerExample_codegen_rpt.html
+
+Build Summary
+
+Top model targets built:
+
+Model                        Action         Rebuild Reason                           
+=====================================================================================
+ROS2ValetPathPlannerExample  Code compiled  Compilation artifacts were out of date.  
+
+1 of 1 models built (0 models already up to date)
+Build duration: 0h 1m 53.874s
+### Starting build procedure for: ROS2ValetControllerExample
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: C:\Users\joshchen\OneDrive - MathWorks\Documents\MATLAB\Examples\ros-ex88924338\ROS2ValetControllerExample_ert_rtw
+### Generated code for 'ROS2ValetControllerExample' is up to date because no structural, parameter or code replacement library changes were found.
+### Evaluating PostCodeGenCommand specified in the model
+### Using toolchain: Colcon Tools
+### Building 'ROS2ValetControllerExample': all
+Running colcon build in folder 'C:/Users/joshchen/OneDrive - MathWorks/Documents/MATLAB/Examples/ros-ex88924338'.Done.
+Success
+### Successfully generated all binary outputs.
+### Successful completion of build procedure for: ROS2ValetControllerExample
+### Creating HTML report file ROS2ValetControllerExample_codegen_rpt.html
+
+Build Summary
+
+Top model targets built:
+
+Model                       Action         Rebuild Reason                           
+====================================================================================
+ROS2ValetControllerExample  Code compiled  Compilation artifacts were out of date.  
+
+1 of 1 models built (0 models already up to date)
+Build duration: 0h 2m 1.851s
+Open the vehicle model and start simulation.
+open_system("ROS2ValetVehicleExample"); 
+set_param("ROS2ValetVehicleExample","SimulationCommand","start"); 
+Verify that the results from simulation match with the deployed ROS 2 nodes.
+
+
+
