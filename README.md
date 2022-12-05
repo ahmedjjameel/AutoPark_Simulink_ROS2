@@ -167,5 +167,7 @@ Verify that the results from simulation match with the deployed ROS 2 nodes.
 
 [4] https://www.youtube.com/watch?v=xKyY7jK0GPw&ab_channel=MATLAB
 
+[5] http://mediatum.ub.tum.de/doc/1625272/xyv5mo92rav1dph4j0xufiksw.MultiVehicleAVP_Kneissl_2020.pdf
+
 
 
