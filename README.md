@@ -161,4 +161,9 @@ Verify that the results from simulation match with the deployed ROS 2 nodes.
 
 [1] https://de.mathworks.com/help/ros/ug/automated-valet-using-ros2-simulink.html
 
+[2] https://etheses.whiterose.ac.uk/26711/7/PhD%20thesis%20-%20Mohammed%20Al-Nuaimi.pdf
+
+[3] https://d-nb.info/1261800761/34
+
+
 
